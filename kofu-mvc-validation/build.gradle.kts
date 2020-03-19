@@ -19,7 +19,7 @@ dependencies {
     implementation("io.arrow-kt:arrow-core:$arrowSnapshotVersion")
     implementation("io.arrow-kt:arrow-fx:$arrowSnapshotVersion")
 
-    implementation(project(":validation-fx"))
+    implementation(project(":validation-templates"))
 
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")

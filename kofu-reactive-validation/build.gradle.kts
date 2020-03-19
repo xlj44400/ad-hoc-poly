@@ -21,7 +21,7 @@ dependencies {
     implementation("io.arrow-kt:arrow-fx:$arrowSnapshotVersion")
     implementation("io.arrow-kt:arrow-fx-reactor:$arrowSnapshotVersion")
 
-    implementation(project(":validation-fx"))
+    implementation(project(":validation-templates"))
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
